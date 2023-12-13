@@ -1,0 +1,20 @@
+# Maintainer: MS-DOS Manfred <hoefer9@gmail.com>
+pkgname=calamares-settings
+_destname1="/etc"
+pkgver=0.1_unstable
+pkgrel=1
+pkgdesc="Config files for Calamares for Arschiso-Custom"
+arch=('any')
+url="https://github.com/msdosmanfred/${pkgname}/"
+license=('unknown')
+depends=()
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=("git+$url")
+sha256sums=('SKIP')
+
+package() {
+	install -dm755 ${pkgdir}${_destname1}
+	cp -r ${srcdir}/${pkgname}/* ${pkgdir}${_destname1}
+}
