@@ -2,7 +2,7 @@
 pkgname=calamares-settings
 _destname1="/etc"
 pkgver=0.1_unstable
-pkgrel=1
+pkgrel=2
 pkgdesc="Config files for Calamares for Arschiso-Custom"
 arch=('any')
 url="https://github.com/msdosmanfred/${pkgname}/"
