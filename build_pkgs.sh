@@ -31,12 +31,12 @@ do
         else
           echo -e "${bold4}++ Checking the PKGBUILD:${cleanse}  PKGBUILD for ${x} has changed."
           mv "${x}/PKGBUILD" PKGBUILD
-          makepkg -cf || echo "FAILED TO MAKE PACKAGE: ${x}"
+          makepkg -rscf || echo "FAILED TO MAKE PACKAGE: ${x}"
         fi
     else
         echo -e "${bold2}@@ PKGBUILD not available:${cleanse} ${x} is not in the AUR. Rebuilding anyway!"
         rm -rf "${dir_path}"/x86_64/"${x}"/"${x}"
-        makepkg -cf || echo "FAILED TO MAKE PACKAGE: ${x}"
+        makepkg -rscf || echo "FAILED TO MAKE PACKAGE: ${x}"
     fi
 
     rm -rf "${dir_path}"/x86_64/"${x}"/"${x}"
