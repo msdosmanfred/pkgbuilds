@@ -24,7 +24,6 @@ for x in "${x86_list[@]}"
 do
     cd "${dir_path}"/x86_64/"${x}"
     git clone "https://aur.archlinux.org/${x}.git" &>/dev/null
-
     if [ -f "${x}/PKGBUILD" ]; then
         if cmp --silent -- "PKGBUILD" "${x}/PKGBUILD"; then
           echo -e "${bold3}## Checking the PKGBUILD:${cleanse}  PKGBUILD for ${x} has not changed."
@@ -38,6 +37,5 @@ do
         rm -rf "${dir_path}"/x86_64/"${x}"/"${x}"
         makepkg -rscf || echo "FAILED TO MAKE PACKAGE: ${x}"
     fi
-
     rm -rf "${dir_path}"/x86_64/"${x}"/"${x}"
 done
