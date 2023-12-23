@@ -1,0 +1,3 @@
+[submodule "aic94xx-firmware"]
+	path = aic94xx-firmware
+	url = https://aur.archlinux.org/aic94xx-firmware
