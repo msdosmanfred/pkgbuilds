@@ -40,5 +40,4 @@ do
     fi
 
     rm -rf "${dir_path}"/x86_64/"${x}"/"${x}"
-
 done
