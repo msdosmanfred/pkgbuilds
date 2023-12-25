@@ -1,5 +1,5 @@
-# Maintainer: Erik Dubois <erik.dubois@gmail.com>
-pkgname=calamares-settings
+# Maintainer: MS-DOS Manfred <hoefer9@gmail.com>
+pkgname=calamares-settings-git
 _destname1="/etc"
 pkgver=23.10
 pkgrel=01
