@@ -2,7 +2,7 @@
 # https://gitlab.manjaro.org/manjaro-arm/packages/extra/calamares/-/blob/master/PKGBUILD
 # https://gitlab.manjaro.org/packages/extra/calamares/-/blob/master/PKGBUILD
 
-pkgname=alci-calamares
+pkgname=calamares
 _pkgname=calamares
 pkgver=3.3.0.231125
 pkgrel=03
