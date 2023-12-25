@@ -1,5 +1,6 @@
 # Maintainer: MS-DOS Manfred <hoefer9@gmail.com>
 pkgname=calamares-settings-git
+_pkgname1=calamares-settings
 _destname1="/etc"
 pkgver=23.10
 pkgrel=01
@@ -12,7 +13,7 @@ depends=()
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-source=(${pkgname}::"git+${url}/${pkgname}")
+source=(${pkgname}::"git+${url}/${_pkgname1}")
 sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${_destname1}
