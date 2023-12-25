@@ -1,0 +1,9 @@
+[submodule "x86_64/aic94xx-firmware"]
+	path = x86_64/aic94xx-firmware
+	url = https://aur.archlinux.org/aic94xx-firmware
+[submodule "x86_64/plasma5-themes-dracula-git"]
+	path = x86_64/plasma5-themes-dracula-git
+	url = https://aur.archlinux.org/plasma5-themes-dracula-git
+[submodule "x86_64/update-grub"]
+	path = x86_64/update-grub
+	url = https://aur.archlinux.org/update-grub
