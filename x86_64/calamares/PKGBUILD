@@ -4,7 +4,7 @@
 
 pkgname=calamares
 _pkgname=calamares
-pkgver=3.3.0.231125
+pkgver=3.3.0.040f424
 pkgrel=03
 pkgdesc='Distribution-independent installer framework'
 arch=('i686' 'x86_64')
@@ -20,7 +20,7 @@ backup=('usr/share/calamares/modules/bootloader.conf'
         'usr/share/calamares/modules/initcpio.conf'
         'usr/share/calamares/modules/unpackfs.conf')
 
-source=($_pkgname::git+https://github.com/calamares/calamares#commit=26236fe
+source=($_pkgname::git+https://github.com/calamares/calamares#commit=040f424
 	"calamares.desktop"
 	"calamares_polkit"
 	"49-nopasswd-calamares.rules")
