@@ -1,0 +1,21 @@
+# Maintainer: MS-DOS Manfred <hoefer9@gmail.com>
+pkgname=arschlive-polybar-settings-git
+_pkgname1=arschlive-polybar-settings
+_destname1="/etc/skel"
+pkgver=23.12
+pkgrel=01
+pkgdesc="polybar settings for Arschlive"
+arch=('any')
+url="https://github.com/msdosmanfred"
+license=('GPL3')
+makedepends=('git')
+depends=()
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${pkgname}::"git+${url}/${_pkgname1}")
+sha256sums=('SKIP')
+package() {
+	install -dm755 ${pkgdir}${_destname1}
+	cp -r ${srcdir}/${pkgname}${_destname1} ${pkgdir}${_destname1}
+}
