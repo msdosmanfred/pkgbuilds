@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mv x86_64/*/*.pkg.tar.zst ~/iso/packages/x86_64/
+mv x86_64/*/*.pkg.tar.zst ../packages/x86_64/
