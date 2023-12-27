@@ -1,10 +1,10 @@
 # Maintainer: MS-DOS Manfred <hoefer9@gmail.com>
-pkgname=arschlive-xfce-settings-git
-_pkgname1=arschlive-xfce-settings
+pkgname=arschlive-config-polybar-git
+_pkgname1=arschlive-config-polybar
 _destname1="/etc"
 pkgver=23.12
 pkgrel=01
-pkgdesc="xfce settings for Arschlive"
+pkgdesc="polybar settings for Arschlive"
 arch=('any')
 url="https://github.com/msdosmanfred"
 license=('GPL3')

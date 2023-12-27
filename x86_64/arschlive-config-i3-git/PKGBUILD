@@ -1,10 +1,10 @@
 # Maintainer: MS-DOS Manfred <hoefer9@gmail.com>
-pkgname=arschlive-i3-settings-git
-_pkgname1=arschlive-i3-settings
+pkgname=arschlive-config-i3-git
+_pkgname1=arschlive-config-i3
 _destname1="/etc"
 pkgver=23.12
 pkgrel=01
-pkgdesc="i3 settings for Arschlive"
+pkgdesc="i3 configs for Arschlive"
 arch=('any')
 url="https://github.com/msdosmanfred"
 license=('GPL3')
