@@ -1,7 +1,7 @@
 # Maintainer: MS-DOS Manfred <hoefer9@gmail.com>
 pkgname=arschlive-xfce-settings-git
 _pkgname1=arschlive-xfce-settings
-_destname1="/etc/skel"
+_destname1="/etc"
 pkgver=23.12
 pkgrel=01
 pkgdesc="xfce settings for Arschlive"
