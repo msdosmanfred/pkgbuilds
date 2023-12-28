@@ -1,6 +1,6 @@
 # Maintainer: MS-DOS Manfred <hoefer9@gmail.com>
-pkgname=calamares-settings-git
-_pkgname1=calamares-settings
+pkgname=arschlive-config-calamares-git
+_pkgname1=arschlive-config-calamares
 _destname1="/etc"
 pkgver=23.12
 pkgrel=01
