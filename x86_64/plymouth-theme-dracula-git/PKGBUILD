@@ -1,8 +1,8 @@
 # Maintainer: Philip <philip1731@protonmail.ch>
 
 pkgname=plymouth-theme-dracula-git
-pkgver=r4.f315ed5
-pkgrel=2
+pkgver=r6.4605bd1
+pkgrel=1
 pkgdesc='Plymouth theme with Dracula colours and logo.'
 arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
 url="https://github.com/nanophilip/${pkgname}/"
