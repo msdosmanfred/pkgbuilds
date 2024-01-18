@@ -2,7 +2,7 @@
 
 pkgname=dracula-grub-theme-git
 _theme=dracula
-pkgver=r5.9eb82b9
+pkgver=r11.0e721d9
 pkgrel=1
 pkgdesc="Dark theme for GRUB Bootloader"
 url='https://github.com/dracula/grub'
