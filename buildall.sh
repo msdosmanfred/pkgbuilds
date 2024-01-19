@@ -19,6 +19,6 @@ for x in "${packages[@]}"
 do
      echo -e "\n\t ${bold} +++ Building package ${x}.${cleanse}\n"
      cd "${dir_path}"/x86_64/"${x}" &> /dev/null
-     makepkg -rsf --noconfirm #&> /dev/null
+     makepkg -rs --noconfirm #&> /dev/null
      rm -rf "${dir_path}"/x86_64/"${x}"/"${x}" &> /dev/null
 done
