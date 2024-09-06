@@ -3,7 +3,7 @@
 # https://gitlab.manjaro.org/packages/extra/calamares/-/blob/master/PKGBUILD
 # https://gitlab.manjaro.org/packages/extra/calamares-git/-/blob/master/PKGBUILD
 
-pkgname=calamares
+pkgname=arschlive-calamares
 _pkgname=calamares
 pkgver=3.3.10.240906
 _pkgver=3.3.10
