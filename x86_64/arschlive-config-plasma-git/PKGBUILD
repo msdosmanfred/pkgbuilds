@@ -2,7 +2,7 @@
 pkgname=arschlive-config-plasma-git
 _pkgname1=arschlive-config-plasma
 _destname1="/etc"
-pkgver=23.12
+pkgver=24.09
 pkgrel=01
 pkgdesc="plasma configs for Arschlive"
 arch=('any')
